@@ -162,6 +162,9 @@ ________________________
 
 .item1{
     background-color: rgb(255, 190, 225);
+    position: relative;
+    top:50px;
+    left:50px;
 }
 
 .item2{
@@ -213,6 +216,13 @@ ________________________
     width: 90vw;
     margin-bottom: 50px;
     background-color: var(--primary-100);
+}
+@media screen and (min-width:600px) 
+{
+    .media__container{
+        background-color: var(--primary-800);
+    }
+    
 }
 /* Extra small devices (phones, 600px and down) */
 
